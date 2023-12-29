@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\user\\Documents\\projects\\csm3123\\lab5\\task5\\part2b\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dev_byte.xml",
+        "source": "D:\\user\\Documents\\projects\\csm3123\\lab5\\task5\\part2b\\app\\src\\main\\res\\layout\\fragment_dev_byte.xml"
+    },
+    {
+        "merged": "D:\\user\\Documents\\projects\\csm3123\\lab5\\task5\\part2b\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\devbyte_item.xml",
+        "source": "D:\\user\\Documents\\projects\\csm3123\\lab5\\task5\\part2b\\app\\src\\main\\res\\layout\\devbyte_item.xml"
+    }
+]
