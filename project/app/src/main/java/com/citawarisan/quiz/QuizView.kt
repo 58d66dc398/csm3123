@@ -96,9 +96,9 @@ fun QuizView(modifier: Modifier = Modifier) {
             val wrongAnswers = question.getJSONArray("incorrect_answers")
             val answers: ArrayList<String> = arrayListOf()
             val correctAnswer = question.getString("correct_answer")
-            answers.add(htmlString(correctAnswer))
+            answers.add(correctAnswer)
             for (i in 0..<wrongAnswers.length()) {
-                answers.add(htmlString(wrongAnswers.getString(i)))
+                answers.add(wrongAnswers.getString(i))
             }
             answers.shuffle()
 
@@ -116,7 +116,7 @@ fun QuizView(modifier: Modifier = Modifier) {
                             Log.d("to", "getting")
                         },
                         modifier = Modifier.fillMaxWidth()
-                    ) { Text(answer) }
+                    ) { Text(htmlString(answer)) }
                 }
             }
         }
